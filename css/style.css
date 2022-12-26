@@ -452,11 +452,11 @@ section.logo-section {
   padding-bottom: 50px;
 }
 /* civil aviation row */
-.mine{
-  display:flex;
+.mine {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-right:2px
+  margin-right: 2px;
 }
 /* Contact Section */
 
@@ -665,4 +665,3 @@ footer .top-social li a {
 }
 
 /* Imported code */
-
