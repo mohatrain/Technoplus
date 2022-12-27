@@ -38,9 +38,10 @@
         margin-top: 2px;
         border: 2px solid white;
       }
-      html {
-        overflow: scroll;
-        overflow-x: hidden;
+      ::-webkit-scrollbar {
+        display: none;
+        height: 0px;
+        width: 0px;
       }
 
       /* Hide the horizontal scrollbar and show the vertical scrollbar */
@@ -187,7 +188,7 @@
     <!-- Start of the about section -->
     <section id="ABOUT">
       <div class="container">
-        <div class="row">
+        <div class="row" style="padding:90px">
           <div class="col-md-12 about-1">
             <h1>ABOUT US</h1>
             <p style="font-family: 'Roboto', sans-serif">
