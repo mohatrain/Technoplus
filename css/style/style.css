@@ -1,10 +1,11 @@
-/* *{
+*{
     padding: 0;
     margin: 0;
-} */
+}
 /* body{
     background-color: rgb(247, 44, 44);
 } */
+
 #ABOUT {
   background-color: #d3080f;
 }
@@ -97,6 +98,7 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
 .about-item:hover hr {
   transition: all 400ms ease-in-out;
 }
+
 
 /* footer{
     background: #212226;
