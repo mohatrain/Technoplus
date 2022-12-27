@@ -7,7 +7,7 @@
 } */
 
 #ABOUT {
-  background-color: #a50a0f;
+  background-color: #cf040b;
 }
 /*=======================
  adding style to about-1 
@@ -38,7 +38,7 @@
   margin-bottom: 20px;
   margin-top: 20px;
   background-color: white;
-  padding: 80px 30px;
+  padding: 80px 50px;
   box-shadow: 0 0 9px rgba(0, 0, 0.6);
   border-radius: 7px;
 }

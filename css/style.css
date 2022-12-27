@@ -451,13 +451,7 @@ section.blog-section {
 section.logo-section {
   padding-bottom: 50px;
 }
-/* civil aviation row */
-.mine {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-right: 2px;
-}
+
 /* Contact Section */
 
 .contact-form {
@@ -547,11 +541,119 @@ footer .top-social li a {
   margin: 0;
   color: #ccc;
 }
-/* html {
-  overflow: hidden;
-} */
 
+@media (max-width: 991px) {
+  .top-social {
+    text-align: center;
+  }
 
+  .top-info {
+    text-align: center;
+  }
 
+  .navbar-light .navbar-toggler {
+    background: #fff;
+  }
 
-/* Imported code */
+  .banner-text h1 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  section.banner-section {
+    padding: 100px 0px;
+  }
+
+  section.about-section,
+  section.services-section {
+    padding: 50px 0px 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  section.services-section {
+  }
+
+  section.work-section {
+    padding: 50px 0px;
+  }
+
+  section.test-section {
+    padding: 50px 0px 100px;
+  }
+
+  section.test-section {
+  }
+
+  section.test-section .owl-nav {
+    bottom: 0;
+    top: auto !important;
+  }
+
+  .owl-nav {
+  }
+
+  section.cta-section {
+    text-align: center;
+  }
+
+  .cta-text {
+    margin-bottom: 20px;
+  }
+
+  section.stats-section {
+    padding: 50px 0px 20px;
+  }
+
+  .stats-box {
+    padding-left: 24px;
+  }
+
+  .stats-info h3 {
+    font-size: 30px;
+  }
+
+  .stats-icon {
+    min-width: 54px;
+  }
+
+  .stats-info {
+    flex: 1;
+  }
+
+  section.blog-section {
+    padding: 50px 0px 30px;
+  }
+
+  .blog-media img {
+    width: 100%;
+  }
+
+  .logo-box {
+    text-align: center;
+  }
+
+  .contact-form {
+    padding: 30px;
+  }
+
+  footer {
+    padding: 50px 0px 30px;
+  }
+
+  .copy p {
+    font-size: 14px;
+  }
+
+  .navbar-collapse.collapse.show {
+    position: absolute;
+    top: 74px;
+    background: #ed1c24;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+}
