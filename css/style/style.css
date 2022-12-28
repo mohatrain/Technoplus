@@ -27,7 +27,7 @@
 .about-1 p {
   text-align: center;
   padding: 3px;
-  color: #fff;
+  color:white;
 }
 
 /*===========================
@@ -37,10 +37,11 @@
 .about-item {
   margin-bottom: 20px;
   margin-top: 20px;
-  background-color: white;
+  background-color:#061538;
   padding: 80px 50px;
   box-shadow: 0 0 9px rgba(0, 0, 0.6);
   border-radius: 7px;
+  color:white
 }
 
 /*======================================
@@ -65,16 +66,19 @@ styling the hr (the blue line in between)
 .about-item hr {
   width: 46px;
   height: 3px;
-  background-color: #5fbff9;
+  background-color: white;
   margin: 0 auto;
   border: none;
   text-align: center;
+}
+.about-item:hover{
+  cursor:pointer;
 }
 
 /*========================================
 hover means when you put your cursor over it
 =========================================*/
-.about-item:hover {
+/* .about-item:hover {
   background-color: #061538;
   cursor: pointer;
 }
@@ -85,7 +89,7 @@ hover means when you put your cursor over it
 }
 .about-item:hover hr {
   background-color: #fff;
-}
+} */
 
 /*==============================================================================
 translate Y: move along the Y axis, negative(-20) moves it up, while positive(20) moves in down by  

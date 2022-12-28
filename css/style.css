@@ -400,6 +400,11 @@ section.stats-section {
   align-items: center;
   margin-bottom: 30px;
 }
+.carousel {
+  width: 80%;
+  height: 50%;
+  margin:auto;
+}
 
 .stats-info p {
   color: #fff;
